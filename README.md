@@ -56,7 +56,7 @@ Amazon Bedrock Agent Runtime
 
 ┌─────────────┴─────────────┐
 
-▼                           ▼
+▼                                 ▼
 
 Bedrock Knowledge Base    AWS Bedrock Guardrails
 
