@@ -7,10 +7,15 @@ AI-powered RAG application built using AWS Bedrock, OpenSearch, Lambda, API Gate
 # 🚀 Features
 
 **Retrieval-Augmented Generation (RAG):** Context-aware, precise generation using state-of-the-art foundation models natively grounded by financial document context.
+
 **Hybrid Vector Search:** Combines semantic vector embeddings and traditional keyword search using Amazon OpenSearch Serverless for highly precise text block retrieval.
+
 **Granular Security Controls:** Integrated with **AWS Bedrock Guardrails** to filter PII, enforce compliance boundaries, and mitigate malicious out-of-scope prompt injections.
+
 **Serverless Architecture:** Infinite scaling with zero idle server overhead using AWS Lambda, Amazon API Gateway, and Amazon S3.
+
 **Dynamic Citations Pipeline:** Extracts precise S3 metadata mappings to render clickable document references with content previews directly in the chat layer.
+
 **Semantic Search using OpenSearch**
 **AWS Bedrock Integration**
 **Loan Policy Q&A Assistant**
