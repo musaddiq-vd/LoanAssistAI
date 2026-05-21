@@ -29,25 +29,35 @@ User → S3 Hosted UI → API Gateway → Lambda → Bedrock Knowledge Base → 
 ---
 
 User ──> CloudFront Dist ──> S3 Static UI (HTML/CSS/JS)
+
 │
+
 (CORS REST API)
+
 │
 ▼
+
 Amazon API Gateway
 │
 ▼
+
 AWS Lambda Function (Python)
 │
 ▼
+
 Amazon Bedrock Agent Runtime
 │
+
 ┌─────────────┴─────────────┐
 ▼                           ▼
+
 Bedrock Knowledge Base    AWS Bedrock Guardrails
 │                   (Boundary Security)
 ▼
+
 Amazon OpenSearch Serverless
 (Vector DB — Embeddings)
+
 ▲
 │
 Amazon S3 Data Source
