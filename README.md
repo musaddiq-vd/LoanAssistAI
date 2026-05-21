@@ -74,6 +74,9 @@ Amazon OpenSearch Serverless
 Amazon S3 Data Source
 (Financial Manuals & PDFs)
 
+<img width="1283" height="607" alt="image" src="https://github.com/user-attachments/assets/3d900c65-692e-4c78-8dfe-f9cc764b8088" />
+
+
 ---
 
 ## 🛠️ Enterprise Tech Stack
